@@ -59,6 +59,8 @@ public class StandAloneTest {
 	String ConfirmMessage=driver.findElement(By.className("hero-primary")).getText();
 	Assert.assertTrue(ConfirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 
+	System.out.println("postJira1");
+	System.out.println("postJira2");
 	
 	}
 
